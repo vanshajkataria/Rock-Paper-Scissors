@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #1b263b;
+    color: #e0e1dd;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.person {
+    width: 2rem;
+}
+
+.score {
+    background-color: black;
+    border-radius: 25px;
+    height: fit-content;
+    padding: 1rem;
+}
+
+.score-text {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.computer {
+    width: 2rem;
+}
+
+.choice-text {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.choice-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.choices {
+    background-color: black;
+    border: 2px #e0e1dd solid;
+    padding: 1rem;
+    transition: all ease-in-out 500ms;
+    border-radius: 100%;
+}
+
+.choices:hover {
+    background-color: #e0e1dd;
+    color:black;
+    cursor: pointer;
+    border: 2px black solid;
+}
+
+.rock {
+    width: 5rem;
+}
+
+.paper {
+    width: 5rem;
+}
+
+.scissors {
+    width: 5rem;
+}
+
+#result-text {
+    color: red;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem 0
+}
+
+.info-text {
+    text-align: center;
+    padding-top: 0.5rem;
+    font-weight: 500;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#reset-btn {
+    appearance: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
